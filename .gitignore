@@ -1,0 +1,6 @@
+# Machine-specific or secret config
+*.local.json
+.env
+.env.*
+*.key
+*.pem
