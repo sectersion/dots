@@ -41,3 +41,15 @@ Copy-Item claude\settings.json $HOME\.claude\settings.json   # merge with your e
 ```
 
 `settings.json` runs the status line through `%USERPROFILE%`. If your shell does not expand that, replace it with the full path to `statusline.ps1`.
+
+## Other tools
+
+| Path | Goes to | What it is |
+| --- | --- | --- |
+| `git/.gitconfig` | `~/.gitconfig` | Git identity and Git LFS filter |
+| `gh/config.yml` | `%APPDATA%\GitHub CLI\config.yml` | GitHub CLI preferences (no tokens; log in with `gh auth login`) |
+| `vscode/settings.json` | `%APPDATA%\Code\User\settings.json` | VS Code settings |
+| `vscode/extensions.txt` | (reference) | Installed VS Code extensions with versions. Install with `Get-Content vscode\extensions.txt \| ForEach-Object { code --install-extension ($_ -replace '@.*') }` |
+| `windows-terminal/settings.json` | Windows Terminal `LocalState\settings.json` | Windows Terminal profiles and keys |
+| `opencode/` | `~/.config/opencode/` | opencode CLI and TUI config and plugins |
+| `herdr/config.toml` | `%APPDATA%\herdr\config.toml` | herdr config |

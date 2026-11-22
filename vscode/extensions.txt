@@ -1,0 +1,12 @@
+ms-azuretools.vscode-containers@2.5.3
+ms-vscode-remote.remote-containers@0.475.0
+redhat.java@1.56.0
+ritwickdey.liveserver@5.7.10
+trentquacks.mocha-transparent@0.0.4
+vscjava.vscode-gradle@3.18.0
+vscjava.vscode-java-debug@0.60.0
+vscjava.vscode-java-dependency@0.27.7
+vscjava.vscode-java-pack@0.31.2
+vscjava.vscode-java-test@0.46.0
+vscjava.vscode-maven@0.46.0
+wakatime.vscode-wakatime@30.2.1

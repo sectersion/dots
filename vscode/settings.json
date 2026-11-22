@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.initialHint": false,
+    "workbench.colorTheme": "Catpuccin Mocha Transparent"
+}
